@@ -8,7 +8,6 @@ class Cat
     @name = name
     @owner = owner
     @mood = "nervous"
-    @cats = []
     @owner.cats << self
     save
     # binding.pry
