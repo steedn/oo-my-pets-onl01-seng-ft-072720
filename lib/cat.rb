@@ -3,7 +3,8 @@ require "pry"
 class Cat
   @@all = []
   attr_reader :name
-  attr_accessor :owner, :mood, :cats
+  attr_accessor :owner, :mood
+  attr_writer :cats
   def initialize(name, owner)
     @name = name
     @owner = owner
