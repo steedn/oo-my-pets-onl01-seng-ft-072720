@@ -20,5 +20,6 @@ class Cat
   end
   def cats
     @cats << self
+    @cats
   end
 end
