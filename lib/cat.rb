@@ -1,5 +1,5 @@
 # require "pry"
-# 
+#
 # class Cat
 #   @@all = []
 #   attr_reader :name
