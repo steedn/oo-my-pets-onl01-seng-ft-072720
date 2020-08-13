@@ -8,8 +8,8 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    @cats = []
-    @dogs = []
+    # @cats = []
+    # @dogs = []
     save
   end
   def say_species
@@ -43,6 +43,14 @@ class Owner
       cat.mood = "happy"
     end
   end
+  def cats
+    Cat.all.select{|cat| cat.owner == self}
+  end
+
+  def dogs
+    Dog.all.select{|dog| dog.owner == self}
+  end
+
   def sell_pets
     pets = self.dogs + self.cats
     pets.each do |pet|
