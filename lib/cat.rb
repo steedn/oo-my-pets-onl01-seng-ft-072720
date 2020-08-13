@@ -19,5 +19,5 @@ class Cat
     @@all
   end
   def buy_cat
-
+  end
 end
