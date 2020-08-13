@@ -10,6 +10,7 @@ class Cat
     @owner = owner
     @mood = "nervous"
     @cats = []
+    @owner.cats << self
     save
     # binding.pry
   end
@@ -20,6 +21,6 @@ class Cat
     @@all
   end
   def cats
-    @owner.cats << self
+
   end
 end
