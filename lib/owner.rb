@@ -43,7 +43,7 @@ class Owner
   end
   def sell_pets
     cats.each do |cat|
-     if cat.name = self
+     if cat.owner = self
        cat.mood = "nervous"
        @cats.chomp(cat)
      end
