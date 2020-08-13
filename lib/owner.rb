@@ -32,7 +32,7 @@ class Owner
     Dog.new(name, self)
   end
   def walk_dogs
-    @dogs.mood = "happy" if @owner = self
-    # binding.pry
+    dogs.each do |dog|
+      dog.mood = "happy"
   end
 end
