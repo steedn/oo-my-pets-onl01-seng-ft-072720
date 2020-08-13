@@ -17,4 +17,5 @@ class Dog
   end
   def mood_change
     @mood = "happy"
+  end
 end
