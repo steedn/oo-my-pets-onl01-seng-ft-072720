@@ -20,6 +20,5 @@ class Cat
   end
   def cats
     @owner.cats << self
-    @cats
   end
 end
