@@ -37,4 +37,3 @@ class Cat
     @@all
   end
 end
-end
