@@ -6,9 +6,9 @@ class Cat
   attr_accessor :owner, :mood, :cats
   def initialize(name, owner)
     @name = name
-    @owner.cats << self
     @owner = owner
     @mood = "nervous"
+    @owner.cats << self
     save
     # binding.pry
   end
