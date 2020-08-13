@@ -47,5 +47,6 @@ class Owner
        cat.mood = "nervous"
        @cats.chomp(cat)
      end
+   end
   end
 end
