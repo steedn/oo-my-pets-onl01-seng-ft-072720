@@ -4,9 +4,9 @@ class Dog
   attr_accessor :owner, :mood, :dogs
   def initialize(name, owner)
     @name = name
-    @owner.dogs << self
     @owner = owner
     @mood = "nervous"
+    @owner.dogs << self
     save
   end
   def save
