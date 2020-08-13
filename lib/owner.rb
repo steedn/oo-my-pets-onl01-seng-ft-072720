@@ -42,11 +42,12 @@ class Owner
     end
   end
   def sell_pets
-    cats.each do |cat|
-     if cat.owner = self
-       cat.mood = "nervous"
-       @cats.chomp(cat)
-     end
-   end
+    pets = self.dogs + self.cats
+
+    pets.each do |pet|
+      pet.mood = "nervous"
+      pet.owner = nil
+    end
   end
+
 end
