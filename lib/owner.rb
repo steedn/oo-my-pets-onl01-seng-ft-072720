@@ -42,5 +42,6 @@ class Owner
     end
   end
   def sell_pets
+    self.mood = "nervous"
   end
 end
