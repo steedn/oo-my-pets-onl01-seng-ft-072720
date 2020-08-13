@@ -19,5 +19,6 @@ class Cat
     @@all
   end
   def cats
+    @cats << self
   end
 end
