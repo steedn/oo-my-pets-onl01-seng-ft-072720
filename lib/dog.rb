@@ -7,6 +7,7 @@ class Dog
     @owner = owner
     @mood = "nervous"
     @dogs = []
+    @owner.dogs << self
     save
   end
   def save
