@@ -47,7 +47,7 @@ class Owner
     pets = self.dogs + self.cats
     pets.each do |pet|
       pet.mood = "nervous"
-      pets.owner = nil
+      pet.owner = nil
       # binding.pry
     end
   end
