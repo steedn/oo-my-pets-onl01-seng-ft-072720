@@ -8,7 +8,7 @@ class Cat
     @name = name
     @owner = owner
     @mood = "nervous"
-    @owner.cats << self if @owner.cats
+    @owner.cats << self
     save
     # binding.pry
   end
