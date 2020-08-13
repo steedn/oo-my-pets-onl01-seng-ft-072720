@@ -15,7 +15,4 @@ class Dog
   def self.all
     @@all
   end
-  def mood_change
-    @mood = "happy"
-  end
 end
