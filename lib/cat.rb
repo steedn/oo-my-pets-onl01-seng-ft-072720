@@ -9,6 +9,7 @@ class Cat
     @name = name
     @owner = owner
     @mood = "nervous"
+    @cats << self
     save
     # binding.pry
   end
