@@ -6,7 +6,7 @@ class Dog
     @name = name
     @owner = owner
     @mood = "nervous"
-    @dogs = []
+    # @dogs = []
     @owner.dogs << self
     save
   end
