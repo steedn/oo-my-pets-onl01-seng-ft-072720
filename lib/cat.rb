@@ -4,6 +4,7 @@ class Cat
   @@all = []
   attr_reader :name
   attr_accessor :owner, :mood, :cats
+  @cats = []
   def initialize(name, owner)
     @name = name
     @owner = owner
