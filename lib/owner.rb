@@ -26,6 +26,5 @@ class Owner
     @@all.clear
   end
   def buy_cat(name)
-    @owner.cats
   end
 end
