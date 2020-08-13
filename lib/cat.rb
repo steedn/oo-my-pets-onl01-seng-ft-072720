@@ -1,4 +1,4 @@
 class Cat
-  def initialize
+  def initialize(name, owner)
   end
 end
