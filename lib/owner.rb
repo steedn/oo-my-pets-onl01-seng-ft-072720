@@ -26,6 +26,6 @@ class Owner
     @@all.clear
   end
   def buy_cat(name)
-    @owner.cats << self
+    Cat.new(name)
   end
 end
