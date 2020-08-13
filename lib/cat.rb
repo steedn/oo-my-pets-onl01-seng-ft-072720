@@ -18,7 +18,4 @@ class Cat
   def self.all
     @@all
   end
-
-  def buy_cat
-  end
 end
