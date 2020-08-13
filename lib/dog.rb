@@ -6,7 +6,6 @@ class Dog
     @name = name
     @owner = owner
     @mood = "nervous"
-    # @dogs = []
     @owner.dogs << self
     save
   end
@@ -16,4 +15,6 @@ class Dog
   def self.all
     @@all
   end
+  def mood_change
+    @mood = "happy"
 end
