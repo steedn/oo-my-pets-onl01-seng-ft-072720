@@ -6,6 +6,7 @@ class Dog
     @name = name
     @owner = owner
     @mood = "nervous"
+    @dogs = []
     save
   end
   def save
