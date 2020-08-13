@@ -9,6 +9,7 @@ class Cat
     @owner = owner
     @mood = "nervous"
     @cats = []
+    @cats << self
     save
     # binding.pry
   end
