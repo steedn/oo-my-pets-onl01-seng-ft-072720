@@ -19,7 +19,7 @@ class Cat
     @@all
   end
   def cats
-    @cats << self
+    @owner.cats << self
     @cats
   end
 end
